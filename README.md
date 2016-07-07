@@ -1,4 +1,2 @@
 # RPS
-Rock, paper, scissors where you always win
-
-React native app.
+Rock, paper, scissors app created to learn/practice React Native
