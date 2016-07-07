@@ -1,3 +1,15 @@
+import React, {
+  AppRegistry,
+      AsyncStorage,
+  Component,
+      Image,
+      Navigator,
+  StyleSheet,
+  Text,
+      TouchableHighlight,
+  View
+} from 'react-native';
+
 class Home extends Component {
     constructor (props) {
       super(props);
@@ -58,4 +70,63 @@ class Home extends Component {
     );
                                                     }
 }
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#c36d9f',
+  },
+    container2: {
+        flexDirection:"row",
+    alignItems: 'center',
+    backgroundColor: '#c36d9f',
+  },
+  welcome: {
+    fontSize: 20,
+    textAlign: 'center',
+    marginTop: 30,
+  },
+    winText:{
+        fontSize: 50,
+    textAlign: 'center',
+    marginTop: 30,
+    },
+  instructions: {
+    textAlign: 'center',
+    margin: 5,
+  },
+   images: {
+
+       flex:1,
+       resizeMode: "contain",
+   },
+    touchable: {
+               flex:1,
+    },
+    back: {
+        textAlign: 'center',
+        fontSize: 20,
+        margin: 30
+    },
+    win: {
+        flex:1,
+        marginLeft:50
+    },
+    whole: {
+            backgroundColor: '#c36d9f',
+            flex:1,
+    },
+    imageCont: {
+        flex: 1,
+        justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#c36d9f',
+    },
+    winImage: {
+        width: 200,
+        height: 200,
+    }
+});
 module.exports = Home;

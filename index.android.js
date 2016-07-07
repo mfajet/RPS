@@ -15,8 +15,8 @@ import React, {
   View
 } from 'react-native';
 
-import Home from 'home.js'
-import WinningPage from 'winning.js'
+import Home from './home.js'
+import WinningPage from './winning.js'
 
 class RPS extends Component {
 
